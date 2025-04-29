@@ -1,0 +1,162 @@
+@font-face {
+	font-family: SMB;
+	src: url(../fonts/supermariobros.ttf);
+}
+
+@font-face {
+	font-family: source-code-pro;
+	src: url(../fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+* {
+	font-family: SMB;
+}
+
+/* Classes */
+
+/* Basic Elements/Layout */
+
+.subheading {
+	text-decoration: underline;
+}
+
+.body-text {
+	font-size: 1.25em;
+	font-family: source-code-pro;
+	font-weight: 900;
+}
+
+
+.navbar-scroll-x {
+	overflow: scroll:
+}
+
+
+
+
+.Icon {
+	height: 50px;
+	width: 50px;
+	text-decoration: ;
+	color: #000;
+	border: 
+	
+}
+
+
+.navbar-nav .nav-link.active {
+	color: hotpink;
+	text-decoration: underline;
+}
+
+.nav-link {
+	color: #BECECE;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+	color: var(--bs-navbar-hover-color);
+}
+
+.nav-blank {
+	display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #BECECE;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.imgtest {
+	height: 300px;
+	width: 300px;
+	background-image: url(../images/snythwavebgalt.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bkg-back {
+	background-color: #AFBCBF;
+	background-image: url(../images/snythwavebgalt.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.bkg-navbar {
+	background-color: #6F1616;
+}
+
+.bkg-page {
+	background-color: #E7F3F2;
+}
+
+.page-title {
+	font-size: 1.6em;
+	text-decoration: underline;
+	text-shadow: -1px -1px 0 #793333, 1px -1px 0 #793333,
+	-1px 1px 0 #793333, 1px 1px 0 #793333;
+}
+
+.dropdown-menu {
+	overflow-y: scroll;
+}
+
+
+
+
+
+
+
+#Footer {
+	background-color: #874A4A;
+}
+
+
+#myVideo {
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.content {
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+}
+
+
+
+
+
+/* background video shit */
+
+/* .bkg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	object-fit: cover;
+	height: 100%;
+	width: 100%; */
+}
+/* 
+.video-wrapper {
+	position: relative;
+	
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} */
