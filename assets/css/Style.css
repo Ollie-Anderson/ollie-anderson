@@ -9,7 +9,7 @@
 }
 
 * {
-	font-family: SMB;
+	/* font-family: SMB; */
 }
 
 /* Classes */
@@ -22,7 +22,7 @@
 
 .body-text {
 	font-size: 1.25em;
-	font-family: source-code-pro;
+	/* font-family: source-code-pro; */
 	font-weight: 900;
 }
 
@@ -33,6 +33,21 @@
 
 
 
+/* Id Custom CSS */
+
+#PageNavigation {
+	font-family: SMB;
+	font-size: .75em;
+}
+
+#PageNavigation .container .navbar-brand {
+	margin-top: 0.5em;
+	font-size: 1.5em
+}
+
+/* .nav-item {
+	font-family: SMB;
+} */
 
 .Icon {
 	height: 50px;

@@ -34,10 +34,10 @@
 		</video> -->
 		
 		
-		<div class="container bkg-page py-0 my-0"> <!-- overarching inner page division -->
+		<div class="container bkg-page p-0 my-0"> <!-- overarching inner page division -->
 			
 			
-			<nav class="navbar container-fluid sticky-top navbar-expand-xl bkg-navbar">
+			<nav class="navbar container-fluid sticky-top navbar-expand-xl bkg-navbar" id="PageNavigation">
 				<div class="container">					
 					<!-- Page Title, responsive on different screen sizes -->
 					<a class="navbar-brand" href="index.html">
@@ -61,8 +61,8 @@
 							<li class="nav-item d-none d-xl-inline-block"><div class="nav-link" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
 							
 							<li class="nav-item">
-								<a class="nav-link d-block d-xxl-none" href="projects.html">Projects</a>
-								<a class="nav-link d-none d-xxl-inline-block" href="projects.html">Current Projects</a>
+								<a class="nav-link d-none d-xl-block d-xxl-none" href="projects.html">WIPs</a>
+								<a class="nav-link d-block d-xl-none d-xxl-inline-block" href="projects.html">Current Projects</a>
 							</li>
 							<li class="nav-item d-none d-xl-inline-block"><div class="nav-link NoHover" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
 							
@@ -70,20 +70,6 @@
 								<a class="nav-link" href="Contact.html">Contact</a>
 							</li>
 							<li class="nav-item d-none d-xl-inline-block"><div class="nav-blank" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
-							
-							
-							<li class="nav-tem dropdown">
-								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" target="_blank" href="https://sketchfab.com/Art_Is_Scary">Sketchfab</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://www.artstation.com/artisscary">Art Station</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://github.com/Ollie-Anderson">GitHub</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://www.instagram.com/art_is_scaryy/">Instagram</a></li>
-								</ul>
-							</li>
-							<li class="nav-item d-none d-xl-inline-block"><div class="nav-link" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
-							
-							
 							<li class="nav-tem dropdown">
 								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
 								<ul class="dropdown-menu dropdown-menu-end">
@@ -93,6 +79,19 @@
 									<li><a class="dropdown-item" target="_blank" href="#">Mods</a></li>
 								</ul>
 							</li>
+							<li class="nav-item d-none d-xl-inline-block"><div class="nav-link" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
+							
+							<li class="nav-tem dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Links</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" target="_blank" href="https://sketchfab.com/Art_Is_Scary">Sketchfab</a></li>
+									<li><a class="dropdown-item" target="_blank" href="https://www.artstation.com/artisscary">Art Station</a></li>
+									<li><a class="dropdown-item" target="_blank" href="https://github.com/Ollie-Anderson">GitHub</a></li>
+									<li><a class="dropdown-item" target="_blank" href="https://instagram.oliver-anderson.co.uk">Instagram</a></li>
+								</ul>
+							</li>
+							
+							
 						</ul>					
 					</div>
 				</div>
@@ -120,8 +119,8 @@
 				
 				
 				<div class="container fluid bd">
-				
-				<!-- Headers for the nav tabs with pre-built JS (making my custom js on the inline list collapse below obsolete) -->
+					
+					<!-- Headers for the nav tabs with pre-built JS (making my custom js on the inline list collapse below obsolete) -->
 					<ul class="nav nav-tabs" id="OverviewTabs" role="tablist">
 						<li class="nav-item" role="presentation">
 							<a class="nav-link btn active" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#GameDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
@@ -159,7 +158,7 @@
 								Some placeholder content for the collapsed game design content component. This panel is hidden by default but revealed when the user activates the relevant trigger.
 							</div>
 						</div>
-
+						
 					</div>
 				</div>
 				
