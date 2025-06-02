@@ -9,7 +9,7 @@
 }
 
 * {
-	font-family: SMB;
+	/* font-family: SMB; */
 }
 
 /* Classes */
@@ -21,8 +21,8 @@
 }
 
 .body-text {
-	font-size: 1.25rem;
-	font-family: source-code-pro;
+	font-size: 1.25em;
+	/* font-family: source-code-pro; */
 	font-weight: 900;
 }
 
@@ -33,6 +33,21 @@
 
 
 
+/* Id Custom CSS */
+
+#PageNavigation {
+	font-family: SMB;
+	font-size: .75em;
+}
+
+#PageNavigation .container .navbar-brand {
+	margin-top: 0.5em;
+	font-size: 1.5em
+}
+
+/* .nav-item {
+	font-family: SMB;
+} */
 
 .Icon {
 	height: 50px;
@@ -94,7 +109,6 @@
 
 .bkg-page {
 	background-color: #E7F3F2;
-	padding: 2rem 3rem 2rem 3rem;
 }
 
 .page-title {
@@ -135,23 +149,8 @@
 }
 
 
-.bkg-synth {
-	/* background-image: url(../images/snythwavebgalt.jpg);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-attachment: fixed; */
-	height: 100%;
-	width:100%;
-}
 
 
-.testOverlay {
-	width: 2rem;
-    height: 2rem;
-    background-color: white;
-    border-radius: .375rem;
-	border: 5px solid black; 
-}
 
 /* background video shit */
 

@@ -37,8 +37,7 @@
 		<div class="container bkg-page p-0 my-0"> <!-- overarching inner page division -->
 			
 			
-			<!-- Navigation Header for the site -->
-			<nav class="navbar container-fluid sticky-top navbar-expand-xl bkg-navbar">
+			<nav class="navbar container-fluid sticky-top navbar-expand-xl bkg-navbar" id="PageNavigation">
 				<div class="container">					
 					<!-- Page Title, responsive on different screen sizes -->
 					<a class="navbar-brand" href="index.html">
@@ -62,8 +61,8 @@
 							<li class="nav-item d-none d-xl-inline-block"><div class="nav-link" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
 							
 							<li class="nav-item">
-								<a class="nav-link d-block d-xxl-none" href="projects.html">Projects</a>
-								<a class="nav-link d-none d-xxl-inline-block" href="projects.html">Current Projects</a>
+								<a class="nav-link d-none d-xl-block d-xxl-none" href="projects.html">WIPs</a>
+								<a class="nav-link d-block d-xl-none d-xxl-inline-block" href="projects.html">Current Projects</a>
 							</li>
 							<li class="nav-item d-none d-xl-inline-block"><div class="nav-link NoHover" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
 							
@@ -71,35 +70,30 @@
 								<a class="nav-link" href="Contact.html">Contact</a>
 							</li>
 							<li class="nav-item d-none d-xl-inline-block"><div class="nav-blank" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
-							
-							<!-- External Links Dropdown -->
 							<li class="nav-tem dropdown">
-								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" target="_blank" href="https://sketchfab.com/Art_Is_Scary">Sketchfab</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://www.artstation.com/artisscary">Art Station</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://github.com/Ollie-Anderson">GitHub</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://www.instagram.com/art_is_scaryy/">Instagram</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://itch.io/profile/art-is-scaryy">Itch.io</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://www.fiverr.com/s/LdQ6r7A">Fiverr</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://twitch.tv/art_is_scaryy">Twitch</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://www.youtube.com/@ArtIsScary">Youtube</a></li>
-									<li><a class="dropdown-item" target="_blank" href="https://buymeacoffee.com/ArtIsScary">Buy Me A Coffee</a></li>
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+								<ul class="dropdown-menu dropdown-menu-end">
+									<li><a class="dropdown-item" target="_blank" href="#">More About Me</a></li>
+									<li><a class="dropdown-item" target="_blank" href="#">My Inspiration</a></li>
+									<li><a class="dropdown-item" target="_blank" href="#">Blog</a></li>
+									<li><a class="dropdown-item" target="_blank" href="#">Mods</a></li>
 								</ul>
 							</li>
 							<li class="nav-item d-none d-xl-inline-block"><div class="nav-link" style="padding-left: 0px; padding-right: 0px;">|</div></li> <!-- break -->
 							
-							<!-- internal extra links dropdown -->
 							<li class="nav-tem dropdown">
-								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
-								<ul class="dropdown-menu dropdown-menu-end">
-									<li><a class="dropdown-item" href="about-me.html">About Me</a></li>
-									<li><a class="dropdown-item" href="blog.html">Blog</a></li>
-									<li><a class="dropdown-item" href="cv.html">My CV</a></li>
-									<li><a class="dropdown-item" href="inspiration.html">Passions & Inspiration</a></li>
-									<li><a class="dropdown-item" href="mod-info.html">Mods</a></li>
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Links</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" target="_blank" href="https://sketchfab.com/Art_Is_Scary">Sketchfab</a></li>
+									<li><a class="dropdown-item" target="_blank" href="https://www.artstation.com/artisscary">Art Station</a></li>
+									<li><a class="dropdown-item" target="_blank" href="https://github.com/Ollie-Anderson">GitHub</a></li>
+									<li><a class="dropdown-item" target="_blank" href="https://instagram.oliver-anderson.co.uk">Instagram</a></li>
+									<li><a class="dropdown-item" target="_blank" href="https://instagram.oliver-anderson.co.uk">Itch.io</a></li>
+									<li><a class="dropdown-item" target="_blank" href="https://instagram.oliver-anderson.co.uk">Fiverr</a></li>
 								</ul>
 							</li>
+							
+							
 						</ul>					
 					</div>
 				</div>
@@ -128,7 +122,7 @@
 				
 				<div class="container fluid bd">
 					
-					<!-- Headers for the extra bio nav tabs with pre-built JS (making my custom js on the inline list collapse below obsolete) -->
+					<!-- Headers for the nav tabs with pre-built JS (making my custom js on the inline list collapse below obsolete) -->
 					<ul class="nav nav-tabs" id="OverviewTabs" role="tablist">
 						<li class="nav-item" role="presentation">
 							<a class="nav-link btn active" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#GameDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
@@ -136,29 +130,29 @@
 							</a>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#3DModelling-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-								3D Modelling
+							<button class="nav-link" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#GameDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+								Game Design
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#WebDevelopment-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-								Web Development
+							<button class="nav-link" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#GameDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+								Game Design
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#Art-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-								Art
+							<button class="nav-link" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#GameDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+								Game Design
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#Programming-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-								Programming
+							<button class="nav-link" id="GameDesign-Tab" data-bs-toggle="tab" data-bs-target="#GameDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+								Game Design
 							</button>
 						</li>
-					</ul>
+					</ul>
 					
 					
-					<!-- Body Text for the bio sub tabs-->
+					
 					<div class="tab-content" id="BioTabContnent">
 						
 						<div class="tab-pane fade show active" id="GameDesign-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
@@ -166,34 +160,13 @@
 								Some placeholder content for the collapsed game design content component. This panel is hidden by default but revealed when the user activates the relevant trigger.
 							</div>
 						</div>
-						<div class="tab-pane fade show active" id="3DModelling-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-							<div class="card card-body">
-								Some placeholder content for the collapsed game design content component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-							</div>
-						</div>
-						<div class="tab-pane fade show active" id="GameDesign-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-							<div class="card card-body">
-								Some placeholder content for the collapsed game design content component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-							</div>
-						</div>
-						<div class="tab-pane fade show active" id="GameDesign-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-							<div class="card card-body">
-								Some placeholder content for the collapsed game design content component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-							</div>
-						</div>
 						
 					</div>
 				</div>
 				
 				
 				
-				<div class="container-fluid">
-					<div class="card card-body">
-						
-						<img class="img-fluid" src="assets/images/snythwavebgalt.jpg">
-						<div class="position-absolute top-0 start-0 testOverlay"></div>
-					</div>
-				</div>
+				
 				
 				<div class="container-fluid">
 					<ul class="list-inline">
